@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirtyVanity", "DirtyVanity\DirtyVanity.vcxproj", "{2C809982-78A1-4F1C-B0E8-C957C93B242F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shellcode_template", "shellcode_template\shellcode_template.vcxproj", "{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		DebugMDd|ARM = DebugMDd|ARM
+		DebugMDd|ARM64 = DebugMDd|ARM64
+		DebugMDd|x64 = DebugMDd|x64
+		DebugMDd|x86 = DebugMDd|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		ReleaseMD|ARM = ReleaseMD|ARM
+		ReleaseMD|ARM64 = ReleaseMD|ARM64
+		ReleaseMD|x64 = ReleaseMD|x64
+		ReleaseMD|x86 = ReleaseMD|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.Debug|ARM.ActiveCfg = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.Debug|x64.ActiveCfg = Debug|x64
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.Debug|x64.Build.0 = Debug|x64
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.Debug|x64.Deploy.0 = Debug|x64
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.Debug|x86.ActiveCfg = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.Debug|x86.Build.0 = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.DebugMDd|ARM.ActiveCfg = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.DebugMDd|ARM.Build.0 = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.DebugMDd|ARM.Deploy.0 = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.DebugMDd|ARM64.ActiveCfg = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.DebugMDd|ARM64.Build.0 = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.DebugMDd|ARM64.Deploy.0 = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.DebugMDd|x64.ActiveCfg = Debug|x64
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.DebugMDd|x64.Build.0 = Debug|x64
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.DebugMDd|x64.Deploy.0 = Debug|x64
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.DebugMDd|x86.ActiveCfg = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.DebugMDd|x86.Build.0 = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.DebugMDd|x86.Deploy.0 = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.Release|ARM.ActiveCfg = Release|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.Release|ARM64.ActiveCfg = Release|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.Release|x64.ActiveCfg = Release|x64
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.Release|x64.Build.0 = Release|x64
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.Release|x86.ActiveCfg = Release|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.Release|x86.Build.0 = Release|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.ReleaseMD|ARM.ActiveCfg = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.ReleaseMD|ARM.Build.0 = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.ReleaseMD|ARM.Deploy.0 = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.ReleaseMD|ARM64.ActiveCfg = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.ReleaseMD|ARM64.Build.0 = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.ReleaseMD|ARM64.Deploy.0 = Debug|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.ReleaseMD|x64.ActiveCfg = Release|x64
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.ReleaseMD|x64.Build.0 = Release|x64
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.ReleaseMD|x86.ActiveCfg = Release|Win32
+		{2C809982-78A1-4F1C-B0E8-C957C93B242F}.ReleaseMD|x86.Build.0 = Release|Win32
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.Debug|ARM.ActiveCfg = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.Debug|ARM64.ActiveCfg = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.Debug|x64.ActiveCfg = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.Debug|x64.Build.0 = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.Debug|x86.ActiveCfg = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.DebugMDd|ARM.ActiveCfg = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.DebugMDd|ARM.Build.0 = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.DebugMDd|ARM64.ActiveCfg = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.DebugMDd|ARM64.Build.0 = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.DebugMDd|x64.ActiveCfg = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.DebugMDd|x64.Build.0 = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.DebugMDd|x86.ActiveCfg = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.DebugMDd|x86.Build.0 = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.Release|ARM.ActiveCfg = Release|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.Release|ARM64.ActiveCfg = Release|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.Release|x64.ActiveCfg = Release|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.Release|x64.Build.0 = Release|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.Release|x86.ActiveCfg = Release|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.ReleaseMD|ARM.ActiveCfg = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.ReleaseMD|ARM.Build.0 = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.ReleaseMD|ARM64.ActiveCfg = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.ReleaseMD|ARM64.Build.0 = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.ReleaseMD|x64.ActiveCfg = Release|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.ReleaseMD|x64.Build.0 = Release|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.ReleaseMD|x86.ActiveCfg = Debug|x64
+		{53891DF6-3F6D-DE4B-A8CD-D89E94D0C8CD}.ReleaseMD|x86.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A375363-D92C-4FA2-80E6-F71812457EAD}
+	EndGlobalSection
+EndGlobal
